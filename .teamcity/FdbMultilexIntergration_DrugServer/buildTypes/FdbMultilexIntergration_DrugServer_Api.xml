@@ -67,6 +67,11 @@
           <param name="teamcity.tests.runRiskGroupTestsFirst" value="recentlyFailed" />
         </parameters>
       </runner>
+      <runner id="RUNNER_1" name="" type="FdbMultilex_InstallConfigureNUnit">
+        <parameters>
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="FdbMultilexIntergration_HttpsGithubComHearstHealthInternationalFdbMultilexRefsHe">
