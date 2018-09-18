@@ -9,6 +9,7 @@
     <param name="CIBuildNetworkBackupFolder" value="\\%env.COMPUTERNAME%\SoftwareDevelopment\CI Build Backups\Migration\SQL2016" />
     <param name="CIBuildRoot" value="%SharedStorage%\CI" />
     <param name="DataCut.SQLServer" value="%env.COMPUTERNAME%" />
+    <param name="DataFolder" value="D:\Data" />
   </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_2" type="OAuthProvider">
