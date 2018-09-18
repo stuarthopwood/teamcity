@@ -19,7 +19,7 @@
           <param name="nuget.updatePackages.mode" value="sln" />
           <param name="nuget.updatePackages.safe" value="true" />
           <param name="nuget.use.restore" value="restore" />
-          <param name="sln.path" value="Online Sphinx/Sphinx.sln" />
+          <param name="sln.path" value="Sphinx.sln" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
