@@ -3,9 +3,7 @@
   <name>Setup Dependancies</name>
   <description>Powershell Script for Setting Up Dependancies</description>
   <settings>
-    <parameters>
-      <param name="API.SQLServer" value="%DataCut.SQLServer%" />
-    </parameters>
+    <parameters />
     <build-runners>
       <runner id="RUNNER_3" name="Run Dependencies Script" type="jetbrains_powershell">
         <parameters>
