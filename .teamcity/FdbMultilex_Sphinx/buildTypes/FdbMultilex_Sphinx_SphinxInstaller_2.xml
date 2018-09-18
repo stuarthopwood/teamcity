@@ -75,7 +75,7 @@
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="FdbMultilexIntergration_HttpsGithubComHearstHealthInternationalFdbMultilexRefsHe">
-        <checkout-rule rule="+:Sphinx/Reports =&gt; ." />
+        <checkout-rule rule="+:Sphinx/Reports =&gt; Sphinx/Reports" />
       </vcs-entry-ref>
     </vcs-settings>
     <requirements />
