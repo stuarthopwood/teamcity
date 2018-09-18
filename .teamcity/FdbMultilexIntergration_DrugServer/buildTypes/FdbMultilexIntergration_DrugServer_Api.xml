@@ -29,15 +29,6 @@
           <param name="vs.version" value="vs2017" />
         </parameters>
       </runner>
-      <runner id="RUNNER_50" name="Install NUnit Runner, Listener &amp; Project Loader" type="simpleRunner">
-        <parameters>
-          <param name="script.content"><![CDATA[%teamcity.tool.NuGet.CommandLine.DEFAULT%\tools\nuget.exe install NUnit.Console -version 3.6.0 -o packages
-%teamcity.tool.NuGet.CommandLine.DEFAULT%\tools\nuget.exe install NUnit.Extension.TeamCityEventListener -Version 1.0.4
-%teamcity.tool.NuGet.CommandLine.DEFAULT%\tools\nuget.exe install NUnit.Extension.NUnitProjectLoader -Version 3.6.0]]></param>
-          <param name="teamcity.step.mode" value="execute_if_success" />
-          <param name="use.custom.script" value="true" />
-        </parameters>
-      </runner>
       <runner id="RUNNER_49" name="Test API" type="NUnit">
         <parameters>
           <param name="dotNetCoverage.NCover.HTMLReport.File.Sort" value="0" />
