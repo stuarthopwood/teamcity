@@ -10,10 +10,10 @@
   <param name="reportTagRevisions" value="true" />
   <param name="secure:password" value="credentialsJSON:ed581ff6-6674-4f18-a62e-7557a055842a" />
   <param name="submoduleCheckout" value="CHECKOUT" />
-  <param name="teamcity:branchSpec"><![CDATA[+:refs/heads/master/
+  <param name="teamcity:branchSpec"><![CDATA[+:refs/heads/master
 +:refs/heads/release/*
 +:refs/heads/feature/*
-+:refs/heads/hotfix/
++:refs/heads/hotfix
 +:refs/heads/*MLX-
 +:refs/heads/MLX-*
 +:refs/heads/RC*
