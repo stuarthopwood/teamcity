@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="2050b0f6-644d-48db-a189-08e45895a1d2" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
   <name>FDB Multilex</name>
-  <parameters />
+  <parameters>
+    <param name="API.SQLServer" value="%DataCut.SQLServer%" />
+  </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_2" type="OAuthProvider">
       <parameters>
