@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="2050b0f6-644d-48db-a189-08e45895a1d2" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>FDB Multilex</name>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_2" type="OAuthProvider">
+      <parameters>
+        <param name="clientId" value="b6db762b1a404a97a448" />
+        <param name="defaultTokenScope" value="public_repo,repo,repo:status,write:repo_hook" />
+        <param name="displayName" value="GitHub.com" />
+        <param name="gitHubUrl" value="https://github.com/" />
+        <param name="providerType" value="GitHub" />
+        <param name="secure:clientSecret" value="credentialsJSON:378072cd-4447-4418-9207-483346c3aa1b" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_4" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="PREFER_VCS" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="rootId" value="FdbMultilex_TeamCityConfiguration" />
+        <param name="showChanges" value="true" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup />
+</project>
+

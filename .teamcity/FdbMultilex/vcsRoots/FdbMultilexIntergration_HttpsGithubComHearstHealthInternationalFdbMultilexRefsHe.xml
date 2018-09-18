@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="02beacaf-c78d-4be3-a06c-472bd96cfb92" type="jetbrains.git" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>https://github.com/HearstHealthInternational/FDB-Multilex#refs/heads/integration</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="agentGitPath" value="C:\Program Files\Git\bin\git.exe" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/integration" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="reportTagRevisions" value="true" />
+  <param name="secure:password" value="credentialsJSON:ed581ff6-6674-4f18-a62e-7557a055842a" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcity:branchSpec"><![CDATA[+:refs/heads/master/
++:refs/heads/release/*
++:refs/heads/feature/*
++:refs/heads/hotfix/
++:refs/heads/*MLX-
++:refs/heads/MLX-*
++:refs/heads/RC*
++:refs/heads/SQL*]]></param>
+  <param name="url" value="https://github.com/HearstHealthInternational/FDB-Multilex" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="stuarthopwood" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+

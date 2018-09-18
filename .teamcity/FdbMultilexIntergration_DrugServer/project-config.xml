@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="FdbMultilex" uuid="2fdc1f98-0d80-4180-a32d-8982ae4915cd" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>Drug Server</name>
+  <parameters />
+  <cleanup />
+</project>
+

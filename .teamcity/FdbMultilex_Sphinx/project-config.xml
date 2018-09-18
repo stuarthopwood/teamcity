@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="FdbMultilex" uuid="a68da7bf-8cb9-40ff-942a-b71a07450072" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>Sphinx</name>
+  <parameters />
+  <cleanup />
+</project>
+
