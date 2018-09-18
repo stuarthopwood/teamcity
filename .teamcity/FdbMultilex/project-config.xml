@@ -12,6 +12,7 @@
     <param name="DataFolder" value="D:\Data" />
     <param name="DataImport.DatabaseNames" value="&quot;SnomedRF2&quot;" />
     <param name="DataImport.SNOMEDDataFolder" value="D:\EDBS\SNOMED\Snomed RF2 Download Data" />
+    <param name="DataImport.SNOMEDLoadFolder" value="%DataImport.SNOMEDDataFolder%\CurrentSnomedRF2Files" />
   </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_2" type="OAuthProvider">
