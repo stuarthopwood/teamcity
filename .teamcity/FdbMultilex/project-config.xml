@@ -5,6 +5,7 @@
     <param name="API.SQLServer" value="%DataCut.SQLServer%" />
     <param name="BackupSourceFolder" value="%env.COMPUTERNAME%\SoftwareDevelopment\CI Build Backups\Migration\SQL2016" />
     <param name="BackupTempWorkingFolder" value="\\%env.COMPUTERNAME%\SoftwareDevelopment\CI Build Backups\Migration\SQL2016" />
+    <param name="BranchName" value="refs/heads/integration" />
   </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_2" type="OAuthProvider">
