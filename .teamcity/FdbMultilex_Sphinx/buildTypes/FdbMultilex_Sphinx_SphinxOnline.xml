@@ -25,7 +25,7 @@
       </runner>
       <runner id="RUNNER_48" name="Build Sphinx Online" type="VS.Solution">
         <parameters>
-          <param name="build-file-path" value="Online Sphinx/Sphinx.sln" />
+          <param name="build-file-path" value="Sphinx.sln" />
           <param name="msbuild.prop.Configuration" value="Debug" />
           <param name="msbuild_version" value="15.0" />
           <param name="run-platform" value="x86" />
