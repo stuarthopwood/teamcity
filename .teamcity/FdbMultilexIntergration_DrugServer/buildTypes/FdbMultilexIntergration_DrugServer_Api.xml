@@ -29,6 +29,11 @@
           <param name="vs.version" value="vs2017" />
         </parameters>
       </runner>
+      <runner id="RUNNER_1" name="" type="FdbMultilex_InstallConfigureNUnit">
+        <parameters>
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
       <runner id="RUNNER_49" name="Test API" type="NUnit">
         <parameters>
           <param name="dotNetCoverage.NCover.HTMLReport.File.Sort" value="0" />
@@ -56,11 +61,6 @@
           <param name="nunit_version" value="NUnit-3.0.0" />
           <param name="teamcity.step.mode" value="execute_if_success" />
           <param name="teamcity.tests.runRiskGroupTestsFirst" value="recentlyFailed" />
-        </parameters>
-      </runner>
-      <runner id="RUNNER_1" name="" type="FdbMultilex_InstallConfigureNUnit">
-        <parameters>
-          <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
     </build-runners>
