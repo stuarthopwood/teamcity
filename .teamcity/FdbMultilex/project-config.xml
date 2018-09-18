@@ -10,6 +10,7 @@
     <param name="CIBuildRoot" value="%SharedStorage%\CI" />
     <param name="DataCut.SQLServer" value="%env.COMPUTERNAME%" />
     <param name="DataFolder" value="D:\Data" />
+    <param name="DataImport.DatabaseNames" value="&quot;SnomedRF2&quot;" />
   </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_2" type="OAuthProvider">
