@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="FdbMultilex" uuid="3a564775-f4d4-4a57-92f2-4b8f3a60d19d" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>Dependencies</name>
+  <parameters />
+  <cleanup />
+</project>
+
