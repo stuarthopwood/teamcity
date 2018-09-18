@@ -7,6 +7,7 @@
     <param name="BackupTempWorkingFolder" value="\\%env.COMPUTERNAME%\SoftwareDevelopment\CI Build Backups\Migration\SQL2016" />
     <param name="BranchName" value="refs/heads/integration" />
     <param name="CIBuildNetworkBackupFolder" value="\\%env.COMPUTERNAME%\SoftwareDevelopment\CI Build Backups\Migration\SQL2016" />
+    <param name="CIBuildRoot" value="%SharedStorage%\CI" />
   </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_2" type="OAuthProvider">
