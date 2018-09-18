@@ -18,7 +18,7 @@
           <param name="nuget.path" value="%teamcity.tool.NuGet.CommandLine.DEFAULT%" />
           <param name="nuget.updatePackages.mode" value="sln" />
           <param name="nuget.use.restore" value="restore" />
-          <param name="sln.path" value="Installer/Sphinx.sln" />
+          <param name="sln.path" value="Sphinx.sln" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
