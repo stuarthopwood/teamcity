@@ -4,7 +4,31 @@
   <description>Powershell Script for Setting Up Dependancies</description>
   <settings>
     <parameters />
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_3" name="Run Dependencies Script" type="jetbrains_powershell">
+        <parameters>
+          <param name="jetbrains_powershell_execution" value="PS1" />
+          <param name="jetbrains_powershell_noprofile" value="true" />
+          <param name="jetbrains_powershell_script_code"><![CDATA[$VCSRoot = '%teamcity.build.checkoutDir%';
+$VCSRootName = 'VCSRoot';
+
+Import-Module SqlServer
+
+if((Get-SMBShare -Name $VCSRootName -ea 0)){
+    Write-Output "Removing old $VCSRootName share"
+    Remove-SmbShare -Name $VCSRootName -Force
+}
+
+Write-Output "Creating $VCSRootName share"
+New-SMBShare –Name $VCSRootName –Path $VCSRoot –FullAccess "Authenticated Users"
+
+Write-Output "Running MLX-Dependencies.ps1 Script on computer '%DataCut.SQLServer%'"
+Invoke-Command -ComputerName %DataCut.SQLServer% -FilePath %teamcity.build.checkoutDir%\Common\LocalBuild\MLX-Dependencies.ps1 -ArgumentList "\\%system.agent.name%\VCSRoot\", "D:\", "D:\EDBS", "D:\DataLoad", "(local)"]]></param>
+          <param name="jetbrains_powershell_script_mode" value="CODE" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="FdbMultilexIntergration_HttpsGithubComHearstHealthInternationalFdbMultilexRefsHe" />
     </vcs-settings>
