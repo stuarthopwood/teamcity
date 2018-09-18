@@ -3,7 +3,7 @@
   <name>FDB Multilex</name>
   <parameters>
     <param name="API.SQLServer" value="%DataCut.SQLServer%" />
-    <param name="BackupSourceFolder" value="HBM044EXESTR01\SoftwareDevelopment\CI Build Backups\Migration\SQL2016" />
+    <param name="BackupSourceFolder" value="%env.COMPUTERNAME%\SoftwareDevelopment\CI Build Backups\Migration\SQL2016" />
   </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_2" type="OAuthProvider">
