@@ -10,6 +10,7 @@
   <param name="reportTagRevisions" value="true" />
   <param name="secure:password" value="credentialsJSON:ed581ff6-6674-4f18-a62e-7557a055842a" />
   <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcity:branchSpec" value="=:refs/heads/Feature*" />
   <param name="url" value="https://github.com/stuarthopwood/teamcity" />
   <param name="useAlternates" value="true" />
   <param name="username" value="stuarthopwood" />
